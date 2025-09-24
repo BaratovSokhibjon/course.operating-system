@@ -1,0 +1,64 @@
+# .gitignore for Operating Systems Code Examples
+
+# Compiled binaries
+01-process-management/fork_example
+01-process-management/exec_example
+01-process-management/zombie_process
+01-process-management/orphan_process
+
+02-threads/basic_thread
+02-threads/race_condition
+02-threads/thread_return
+
+03-synchronization/mutex_example
+03-synchronization/producer_consumer
+03-synchronization/deadlock
+03-synchronization/reader_writer
+
+04-memory-management/dynamic_allocation
+04-memory-management/memory_leak
+04-memory-management/pointers
+
+05-system-calls/common_syscalls
+05-system-calls/signals
+05-system-calls/alarm
+
+06-file-systems/file_operations
+06-file-systems/directory_operations
+06-file-systems/file_permissions
+
+07-scheduling/cpu_scheduling
+
+08-ipc/pipe_example
+08-ipc/named_pipe
+08-ipc/shared_memory
+08-ipc/message_queue
+
+# Object files
+*.o
+
+# Backup files
+*~
+*.swp
+*.swo
+
+# Test files created by examples
+test_file.txt
+permissions_test.txt
+test_directory/
+
+# Valgrind output
+vgcore.*
+*.log
+
+# Core dumps
+core
+core.*
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS
+.DS_Store
