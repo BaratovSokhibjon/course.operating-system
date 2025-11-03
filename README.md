@@ -2,37 +2,6 @@
 
 This repository contains my study materials, implementations, and programming assignments for the Operating Systems course at Inha University. The repository is organized by **operating system topics and concepts** for efficient learning and reference.
 
-## 📁 Repository Structure
-
-```markdown
-course.operating-system/
-├── fundamentals/                   # OS basics and architecture
-│   ├── os-concepts/
-│   ├── system-calls/
-│   └── kernel-architecture/
-├── process-management/            # Process and thread management
-│   ├── processes/
-│   ├── threads/
-│   ├── scheduling/
-│   └── synchronization/
-├── memory-management/             # Memory systems and virtual memory
-│   ├── virtual-memory/
-│   ├── paging/
-│   └── segmentation/
-├── file-systems/                  # File management and storage
-│   ├── file-management/
-│   ├── directory-structures/
-│   └── storage-devices/
-├── security-protection/           # OS security mechanisms
-│   ├── access-control/
-│   └── authentication/
-├── practical-labs/                # Hands-on programming labs
-├── resources/                     # Reference materials
-│   ├── lectures/
-│   └── code-examples/
-└── assignments/                   # Course assignments
-```
-
 ## 🎯 Course Topics Coverage
 
 ### Operating System Fundamentals
@@ -56,9 +25,12 @@ course.operating-system/
 
 ### File Systems
 
-- File system interface and implementation
-- Directory structures and file allocation methods
-- Storage management and disk scheduling
+- **File Management**: File operations, attributes, access methods, and file control blocks
+- **Directory Structures**: Hierarchical organization, path names, mount points, and directory operations
+- **Storage Devices**: Magnetic disks, SSDs, optical storage, RAID, and storage virtualization
+- File allocation methods (contiguous, linked, indexed)
+- Storage management and disk scheduling algorithms
+- File system implementation and performance optimization
 
 ### Security and Protection
 
